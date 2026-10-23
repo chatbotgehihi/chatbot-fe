@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T00:00:00Z",
+  "title": "Design System: Gemini AI Studio",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Cool Ground", "canonical": "oklch(0.985 0.003 270)", "dark": "oklch(0.185 0.008 272)", "cssVar": "--bg", "tonalRamp": ["oklch(0.15 0.006 270)", "oklch(0.25 0.006 270)", "oklch(0.35 0.006 270)", "oklch(0.45 0.006 270)", "oklch(0.6 0.006 270)", "oklch(0.75 0.006 270)", "oklch(0.85 0.006 270)", "oklch(0.95 0.006 270)"] },
+      "surface": { "role": "neutral", "displayName": "Card White", "canonical": "oklch(1 0 0)", "dark": "oklch(0.225 0.01 272)", "cssVar": "--surface", "tonalRamp": ["oklch(0.15 0 0)", "oklch(0.25 0 0)", "oklch(0.35 0 0)", "oklch(0.45 0 0)", "oklch(0.6 0 0)", "oklch(0.75 0 0)", "oklch(0.85 0 0)", "oklch(0.95 0 0)"] },
+      "surface-2": { "role": "neutral", "displayName": "Tinted Pill", "canonical": "oklch(0.948 0.012 270)", "dark": "oklch(0.275 0.014 272)", "cssVar": "--surface-2", "tonalRamp": ["oklch(0.15 0.012 270)", "oklch(0.25 0.012 270)", "oklch(0.35 0.012 270)", "oklch(0.45 0.012 270)", "oklch(0.6 0.012 270)", "oklch(0.75 0.012 270)", "oklch(0.85 0.012 270)", "oklch(0.95 0.012 270)"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "oklch(0.905 0.007 270)", "dark": "oklch(0.315 0.012 272)", "cssVar": "--line", "tonalRamp": ["oklch(0.15 0.008 270)", "oklch(0.25 0.008 270)", "oklch(0.35 0.008 270)", "oklch(0.45 0.008 270)", "oklch(0.6 0.008 270)", "oklch(0.75 0.008 270)", "oklch(0.85 0.008 270)", "oklch(0.95 0.008 270)"] },
+      "line-strong": { "role": "neutral", "displayName": "Firm Hairline", "canonical": "oklch(0.8 0.01 270)", "dark": "oklch(0.42 0.014 272)", "cssVar": "--line-strong", "tonalRamp": ["oklch(0.15 0.01 270)", "oklch(0.25 0.01 270)", "oklch(0.35 0.01 270)", "oklch(0.45 0.01 270)", "oklch(0.6 0.01 270)", "oklch(0.75 0.01 270)", "oklch(0.85 0.01 270)", "oklch(0.95 0.01 270)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(0.22 0.015 270)", "dark": "oklch(0.94 0.006 272)", "cssVar": "--fg", "tonalRamp": ["oklch(0.15 0.015 270)", "oklch(0.25 0.015 270)", "oklch(0.35 0.015 270)", "oklch(0.45 0.015 270)", "oklch(0.6 0.015 270)", "oklch(0.75 0.015 270)", "oklch(0.85 0.015 270)", "oklch(0.95 0.015 270)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Muted Ink", "canonical": "oklch(0.48 0.014 270)", "dark": "oklch(0.72 0.012 272)", "cssVar": "--fg-muted", "tonalRamp": ["oklch(0.15 0.014 270)", "oklch(0.25 0.014 270)", "oklch(0.35 0.014 270)", "oklch(0.45 0.014 270)", "oklch(0.6 0.014 270)", "oklch(0.75 0.014 270)", "oklch(0.85 0.014 270)", "oklch(0.95 0.014 270)"] },
+      "ink-faint": { "role": "neutral", "displayName": "Faint Ink", "canonical": "oklch(0.53 0.012 270)", "dark": "oklch(0.62 0.012 272)", "cssVar": "--fg-faint", "tonalRamp": ["oklch(0.15 0.012 270)", "oklch(0.25 0.012 270)", "oklch(0.35 0.012 270)", "oklch(0.45 0.012 270)", "oklch(0.6 0.012 270)", "oklch(0.75 0.012 270)", "oklch(0.85 0.012 270)", "oklch(0.95 0.012 270)"] },
+      "indigo": { "role": "primary", "displayName": "Deep Indigo", "canonical": "oklch(0.47 0.17 272)", "dark": "oklch(0.74 0.12 272)", "cssVar": "--accent", "tonalRamp": ["oklch(0.15 0.06 272)", "oklch(0.25 0.1 272)", "oklch(0.35 0.15 272)", "oklch(0.45 0.17 272)", "oklch(0.6 0.15 272)", "oklch(0.75 0.11 272)", "oklch(0.85 0.07 272)", "oklch(0.95 0.03 272)"] },
+      "indigo-deep": { "role": "primary", "displayName": "Pressed Indigo", "canonical": "oklch(0.41 0.17 272)", "dark": "oklch(0.8 0.1 272)", "cssVar": "--accent-hover", "tonalRamp": ["oklch(0.15 0.06 272)", "oklch(0.25 0.1 272)", "oklch(0.35 0.15 272)", "oklch(0.45 0.17 272)", "oklch(0.6 0.15 272)", "oklch(0.75 0.11 272)", "oklch(0.85 0.07 272)", "oklch(0.95 0.03 272)"] },
+      "on-indigo": { "role": "primary", "displayName": "Paper on Indigo", "canonical": "oklch(0.99 0.005 272)", "dark": "oklch(0.18 0.03 272)", "cssVar": "--accent-fg", "tonalRamp": ["oklch(0.15 0.005 272)", "oklch(0.25 0.005 272)", "oklch(0.35 0.005 272)", "oklch(0.45 0.005 272)", "oklch(0.6 0.005 272)", "oklch(0.75 0.005 272)", "oklch(0.85 0.005 272)", "oklch(0.95 0.005 272)"] },
+      "indigo-wash": { "role": "primary", "displayName": "Indigo Wash", "canonical": "oklch(0.94 0.035 272)", "dark": "oklch(0.3 0.05 272)", "cssVar": "--accent-soft", "tonalRamp": ["oklch(0.15 0.035 272)", "oklch(0.25 0.035 272)", "oklch(0.35 0.035 272)", "oklch(0.45 0.035 272)", "oklch(0.6 0.035 272)", "oklch(0.75 0.035 272)", "oklch(0.85 0.035 272)", "oklch(0.95 0.035 272)"] },
+      "danger": { "role": "status", "displayName": "Signal Red", "canonical": "oklch(0.52 0.19 25)", "dark": "oklch(0.74 0.14 25)", "cssVar": "--danger", "tonalRamp": ["oklch(0.15 0.06 25)", "oklch(0.25 0.1 25)", "oklch(0.35 0.15 25)", "oklch(0.45 0.18 25)", "oklch(0.6 0.17 25)", "oklch(0.75 0.12 25)", "oklch(0.85 0.07 25)", "oklch(0.95 0.025 25)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Empty-state greeting only; balanced wrap." },
+      "title": { "displayName": "Title", "purpose": "Product name in the top bar." },
+      "body": { "displayName": "Body", "purpose": "Assistant prose on a 68ch measure; user pills at 1.625 line-height; composer at 24px line-height." },
+      "body-sm": { "displayName": "Body Small", "purpose": "Starter cards (500 titles, 400 descriptions), error text, retry and new-chat buttons, loading line." },
+      "label": { "displayName": "Label", "purpose": "Model label and the copy action under replies." },
+      "caption": { "displayName": "Caption", "purpose": "Disclaimer under the composer and code-block header." },
+      "code": { "displayName": "Code", "purpose": "JetBrains Mono, code blocks and their language tag only. Loaded with the vietnamese subset." }
+    },
+    "shadows": [
+      { "name": "composer", "value": "0 1px 2px oklch(0.22 0.015 270 / 0.04), 0 6px 20px -4px oklch(0.22 0.015 270 / 0.08)", "dark": "0 1px 2px oklch(0 0 0 / 0.2), 0 8px 24px -6px oklch(0 0 0 / 0.45)", "purpose": "The composer only; the single lifted object in the system." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Easing for turn entry and the thinking mark." },
+      { "name": "turn-in", "value": "420ms ease-out-expo; from opacity 0, translateY(6px)", "purpose": "Each new turn and the waiting line fade up into place." },
+      { "name": "mark-think", "value": "1.6s ease-out-expo infinite; rotate 0 to 90deg, scale 1 to 0.82, opacity 1 to 0.6", "purpose": "Assistant mark while a reply is pending." },
+      { "name": "breathe", "value": "1.6s ease-in-out infinite; opacity 1 to 0.45", "purpose": "Waiting text beside the thinking mark." },
+      { "name": "control-transition", "value": "150ms (Tailwind default colors transition; send button background-color and transform)", "purpose": "Hover fills, border firming, send-button press scale 0.95." },
+      { "name": "reduced-motion", "value": "animation: none", "purpose": "turn-in, mark-think, and breathe all stop under prefers-reduced-motion; auto-scroll becomes instant." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Send Button",
+      "kind": "button",
+      "refersTo": "button-send",
+      "description": "The only indigo control: 40px square submit inside the composer.",
+      "html": "<button class=\"ds-btn-send\" aria-label=\"Gửi\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19V5\"/><path d=\"m5 12 7-7 7 7\"/></svg></button>",
+      "css": ".ds-btn-send { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border: 0; border-radius: 12px; background: var(--accent, oklch(0.47 0.17 272)); color: var(--accent-fg, oklch(0.99 0.005 272)); cursor: pointer; transition: background-color 150ms, transform 150ms; } .ds-btn-send:hover { background: var(--accent-hover, oklch(0.41 0.17 272)); } .ds-btn-send:active { transform: scale(0.95); } .ds-btn-send:focus-visible { outline: 2px solid var(--accent, oklch(0.47 0.17 272)); outline-offset: 2px; } .ds-btn-send:disabled { background: var(--surface-2, oklch(0.948 0.012 270)); color: var(--fg-faint, oklch(0.53 0.012 270)); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Top-bar new-chat action; same treatment at 32px/13px for the reply copy action.",
+      "html": "<button class=\"ds-btn-ghost\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 20h9\"/><path d=\"M16.4 3.6a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z\"/></svg>Cuộc trò chuyện mới</button>",
+      "css": ".ds-btn-ghost { display: flex; align-items: center; gap: 8px; height: 36px; padding: 0 12px; border: 0; border-radius: 8px; background: transparent; color: var(--fg-muted, oklch(0.48 0.014 270)); font: 500 14px/20px 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: color 150ms, background-color 150ms; } .ds-btn-ghost:hover { background: var(--surface-2, oklch(0.948 0.012 270)); color: var(--fg, oklch(0.22 0.015 270)); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--accent, oklch(0.47 0.17 272)); outline-offset: 2px; } .ds-btn-ghost:disabled { opacity: 0.4; pointer-events: none; }"
+    },
+    {
+      "name": "Retry Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Bordered secondary action beside an inline error under a failed user turn.",
+      "html": "<button class=\"ds-btn-secondary\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 12a9 9 0 1 0 3-6.7L3 8\"/><path d=\"M3 3v5h5\"/></svg>Thử lại</button>",
+      "css": ".ds-btn-secondary { display: flex; align-items: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid var(--line, oklch(0.905 0.007 270)); border-radius: 8px; background: var(--surface, oklch(1 0 0)); color: var(--fg, oklch(0.22 0.015 270)); font: 500 14px/20px 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background-color 150ms; } .ds-btn-secondary:hover { background: var(--surface-2, oklch(0.948 0.012 270)); } .ds-btn-secondary:focus-visible { outline: 2px solid var(--accent, oklch(0.47 0.17 272)); outline-offset: 2px; } .ds-btn-secondary:disabled { opacity: 0.4; }"
+    },
+    {
+      "name": "Composer",
+      "kind": "input",
+      "refersTo": "composer",
+      "description": "Docked autogrowing textarea with the send button inside; the only shadowed object.",
+      "html": "<div class=\"ds-composer\"><textarea class=\"ds-composer-input\" rows=\"1\" placeholder=\"Nhắn cho Gemini…\"></textarea><button class=\"ds-composer-send\" aria-label=\"Gửi\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 19V5\"/><path d=\"m5 12 7-7 7 7\"/></svg></button></div>",
+      "css": ".ds-composer { display: flex; align-items: flex-end; gap: 8px; padding: 8px 8px 8px 16px; border: 1px solid var(--line, oklch(0.905 0.007 270)); border-radius: 16px; background: var(--surface, oklch(1 0 0)); box-shadow: var(--shadow-composer, 0 1px 2px oklch(0.22 0.015 270 / 0.04), 0 6px 20px -4px oklch(0.22 0.015 270 / 0.08)); transition: border-color 150ms; max-width: 720px; } .ds-composer:focus-within { border-color: var(--line-strong, oklch(0.8 0.01 270)); } .ds-composer-input { flex: 1; min-height: 40px; max-height: 200px; resize: none; border: 0; outline: none; background: transparent; padding: 8px 0; color: var(--fg, oklch(0.22 0.015 270)); caret-color: var(--accent, oklch(0.47 0.17 272)); font: 400 15px/24px 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; } .ds-composer-input::placeholder { color: var(--fg-faint, oklch(0.53 0.012 270)); } .ds-composer-send { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; flex-shrink: 0; border: 0; border-radius: 12px; background: var(--accent, oklch(0.47 0.17 272)); color: var(--accent-fg, oklch(0.99 0.005 272)); cursor: pointer; transition: background-color 150ms, transform 150ms; } .ds-composer-send:hover { background: var(--accent-hover, oklch(0.41 0.17 272)); } .ds-composer-send:active { transform: scale(0.95); }"
+    },
+    {
+      "name": "Starter Card",
+      "kind": "card",
+      "refersTo": "starter-card",
+      "description": "Empty-state prompt card in a 2x2 grid; sends its prompt on click.",
+      "html": "<button class=\"ds-starter\"><span class=\"ds-starter-title\">Giải thích dễ hiểu</span><span class=\"ds-starter-desc\">Giải thích blockchain hoạt động thế nào bằng một ví dụ đời thường.</span></button>",
+      "css": ".ds-starter { display: flex; flex-direction: column; align-items: flex-start; text-align: left; padding: 14px 16px; border: 1px solid var(--line, oklch(0.905 0.007 270)); border-radius: 12px; background: var(--surface, oklch(1 0 0)); color: var(--fg, oklch(0.22 0.015 270)); font-family: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background-color 150ms, border-color 150ms; max-width: 355px; } .ds-starter:hover { border-color: var(--line-strong, oklch(0.8 0.01 270)); background: var(--surface-2, oklch(0.948 0.012 270)); } .ds-starter:focus-visible { outline: 2px solid var(--accent, oklch(0.47 0.17 272)); outline-offset: 2px; } .ds-starter-title { font-size: 14px; line-height: 20px; font-weight: 500; } .ds-starter-desc { margin-top: 4px; font-size: 14px; line-height: 1.625; color: var(--fg-muted, oklch(0.48 0.014 270)); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }"
+    },
+    {
+      "name": "User Turn",
+      "kind": "custom",
+      "refersTo": "user-turn",
+      "description": "Right-aligned tinted pill for the user's message.",
+      "html": "<div class=\"ds-user-turn\"><p>Còn Bitcoin thì khác gì?</p></div>",
+      "css": ".ds-user-turn { display: flex; justify-content: flex-end; } .ds-user-turn p { margin: 0; max-width: 75%; padding: 10px 16px; border-radius: 16px; background: var(--surface-2, oklch(0.948 0.012 270)); color: var(--fg, oklch(0.22 0.015 270)); font: 400 15px/1.625 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; white-space: pre-wrap; overflow-wrap: break-word; }"
+    },
+    {
+      "name": "Assistant Turn",
+      "kind": "custom",
+      "refersTo": "body",
+      "description": "Unboxed prose on a 68ch measure, signed by the indigo four-point mark.",
+      "html": "<div class=\"ds-ai-turn\"><svg class=\"ds-ai-mark\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M12 2c.5 4.9 3.1 7.5 10 10-6.9 2.5-9.5 5.1-10 10-.5-4.9-3.1-7.5-10-10 6.9-2.5 9.5-5.1 10-10Z\"/></svg><div class=\"ds-ai-body\"><p>Hãy tưởng tượng một cuốn sổ ghi nợ chung của cả xóm.</p><p>Blockchain chính là cuốn sổ đó.</p></div></div>",
+      "css": ".ds-ai-turn { display: flex; gap: 16px; } .ds-ai-mark { width: 20px; height: 20px; margin-top: 4px; flex-shrink: 0; color: var(--accent, oklch(0.47 0.17 272)); } .ds-ai-body { display: flex; flex-direction: column; gap: 16px; max-width: 68ch; color: var(--fg, oklch(0.22 0.015 270)); font: 400 15px/28px 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; } .ds-ai-body p { margin: 0; }"
+    },
+    {
+      "name": "Code Block",
+      "kind": "card",
+      "refersTo": "code-block",
+      "description": "Hairline-bordered figure with a language caption and copy action; the only place JetBrains Mono appears.",
+      "html": "<figure class=\"ds-code\"><figcaption class=\"ds-code-cap\"><span class=\"ds-code-lang\">js</span><button class=\"ds-code-copy\">Sao chép mã</button></figcaption><pre class=\"ds-code-pre\"><code>const block = { prev: hash(lastBlock), data: 'An nợ Bình 50k' };</code></pre></figure>",
+      "css": ".ds-code { margin: 0; overflow: hidden; border: 1px solid var(--line, oklch(0.905 0.007 270)); border-radius: 12px; background: var(--surface, oklch(1 0 0)); color: var(--fg, oklch(0.22 0.015 270)); } .ds-code-cap { display: flex; align-items: center; justify-content: space-between; height: 36px; padding: 0 6px 0 16px; border-bottom: 1px solid var(--line, oklch(0.905 0.007 270)); font: 400 12px/16px 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif; color: var(--fg-muted, oklch(0.48 0.014 270)); } .ds-code-lang { font-family: 'JetBrains Mono', ui-monospace, monospace; } .ds-code-copy { height: 28px; padding: 0 8px; border: 0; border-radius: 6px; background: transparent; color: inherit; font: inherit; cursor: pointer; transition: background-color 150ms, color 150ms; } .ds-code-copy:hover { background: var(--surface-2, oklch(0.948 0.012 270)); color: var(--fg, oklch(0.22 0.015 270)); } .ds-code-copy:focus-visible { outline: 2px solid var(--accent, oklch(0.47 0.17 272)); outline-offset: 2px; } .ds-code-pre { margin: 0; overflow-x: auto; padding: 12px 16px; font: 400 13px/24px 'JetBrains Mono', ui-monospace, monospace; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Desk",
+    "overview": "The conversation is the whole screen. This is the category-standard chat surface played straight, at the craft level of Claude.ai: a neutral ground with the faintest cool tint, one deep indigo accent, hairline borders, and a single soft shadow under the composer. Nothing on the page is decorative; chrome is a 56px top bar and a docked composer, and everything between them is reading.\n\nDensity is calm and generous. One centered column (768px wide, 720px of content at desktop gutters) carries the empty state, the thread, and the composer, so the eye never relocates. User turns are quiet tinted pills on the right; assistant turns are unboxed prose on a 68ch measure, signed by a small four-point indigo mark. Light and dark follow the operating system with no in-app toggle; both modes are full token sets, not inversions.\n\nThis world replaces the earlier dark-gradient glass look. Gradient fills, gradient text, glass blur, and avatar-bubble widget styling are not part of it.",
+    "keyCharacteristics": [
+      "One centered column for empty state, thread, and composer.",
+      "Neutral ground tinted toward hue 270; one indigo accent used sparingly.",
+      "Hairline borders define every container; only the composer is lifted.",
+      "Be Vietnam Pro for every word, with full Vietnamese diacritics; JetBrains Mono only for code.",
+      "Light/dark from `prefers-color-scheme`, no toggle.",
+      "Short, expo-eased motion that switches off under reduced motion."
+    ],
+    "rules": [
+      { "name": "The One Indigo Rule", "body": "Indigo appears only on the assistant mark, the send button, the caret, the focus ring, and selection. Every other element is neutral. If a new surface needs a second color to communicate, it is the wrong surface.", "section": "colors" },
+      { "name": "The System Decides Rule", "body": "Light and dark come from `prefers-color-scheme` alone. Every color is a token defined in both modes; never hard-code a color that exists in only one.", "section": "colors" },
+      { "name": "The One Family Rule", "body": "Every word of UI and prose is Be Vietnam Pro. JetBrains Mono appears only inside code blocks; never for labels, numbers, or decoration.", "section": "typography" },
+      { "name": "The Diacritics Rule", "body": "Any font added to this system must load the `vietnamese` subset. Copy is Vietnamese; a face that fakes diacritics is a broken face.", "section": "typography" },
+      { "name": "The One Column Rule", "body": "Greeting, turns, and composer share one centered column. Nothing in the reading area breaks out of it, and no side rail is added.", "section": "layout" },
+      { "name": "The Single Shadow Rule", "body": "The composer is the only lifted object. Cards, pills, code blocks, and buttons are separated by tone and hairline, never by shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** keep indigo to the mark, send button, caret, focus ring, and selection (The One Indigo Rule).",
+      "**Do** define every new color as a token with both a light and a dark value.",
+      "**Do** separate surfaces with 1px hairlines and tone; reserve the composer shadow for the composer.",
+      "**Do** keep assistant replies unboxed on a 68ch measure and user turns as right-aligned tinted pills.",
+      "**Do** load the `vietnamese` subset for any font, and use Be Vietnam Pro for all non-code text.",
+      "**Do** honor `prefers-reduced-motion` for every animation, as the turn entry, thinking mark, and breathing text already do."
+    ],
+    "donts": [
+      "**Don't** reintroduce gradient backgrounds, gradient text, or glass blur; this world replaced them.",
+      "**Don't** wrap assistant replies in bubbles or give users an avatar; the indigo mark is the only turn signature.",
+      "**Don't** add a second accent hue or a light/dark toggle.",
+      "**Don't** use JetBrains Mono outside code.",
+      "**Don't** add shadows to cards, pills, code blocks, or buttons."
+    ]
+  }
+}
